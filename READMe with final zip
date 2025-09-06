@@ -1,0 +1,109 @@
+# EcoMarket
+
+EcoMarket is a platform designed to facilitate the buying and selling of eco-friendly products. Built with a focus on sustainability, it aims to connect environmentally conscious consumers with businesses and individuals offering green goods and services.
+Due to corruption in certain sectors of the repository,the final zip file with working prototype has been uploaded here for reference 
+https://drive.google.com/file/d/1XXoDxFko3F967OgrZgqSFi4HuzSFxS1y/view?usp=sharing
+---
+
+## 🌱 Features
+
+- *Product Listings:* Browse, search, and filter eco-friendly products.
+- *User Authentication:* Register, log in, and manage user profiles.
+- *Seller Portal:* Add, edit, and manage product listings.
+- *Shopping Cart:* Add items to your cart and manage orders.
+- *Category Filters:* Easily find products by category, such as recycled goods, organic foods, and more.
+- *Reviews & Ratings:* Share feedback and help others make informed choices.
+
+---
+
+## 🛠 Technology Stack
+
+| Layer      | Tech                |
+|------------|---------------------|
+| *Backend*| Flask (Python)      |
+| *Frontend*| HTML, CSS, JavaScript |
+| *Database*| SQLite (default)   |
+| *Styling* | Bootstrap          |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- pip
+
+### Installation
+
+sh
+git clone https://github.com/NA0XY/EcoMarket.git
+cd EcoMarket
+
+
+Create a virtual environment (recommended):
+
+sh
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
+Install dependencies:
+
+sh
+pip install -r requirements.txt
+
+
+Set up the database:
+
+sh
+flask db upgrade
+
+
+Run the application:
+
+sh
+flask run
+
+
+The app will be available at http://localhost:5000.
+
+---
+
+## 📚 Usage
+
+1. *Register* an account or log in.
+2. *Browse* products or use filters to find items of interest.
+3. *Sellers* can add new items from their dashboard.
+4. *Add* products to your cart and proceed to checkout.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
+
+1. Fork the repo
+2. Create your feature branch (git checkout -b feature/YourFeature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin feature/YourFeature)
+5. Open a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+
+For questions or feedback, please open an issue or contact [NA0XY](https://github.com/NA0XY).
+
+---
+
+<p align="center">
+  <b>EcoMarket — Buy green, live clean!</b> <br>
+  <img src="https://img.shields.io/badge/Eco-Friendly-Success?style=for-the-badge&logo=leaflet&logoColor=white" alt="Eco-Friendly Badge">
+</p>
